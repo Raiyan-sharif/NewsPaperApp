@@ -6,53 +6,94 @@ import './models/meal.dart';
 const DUMMY_CATEGORIES = const [
   Category(
     id: 'c1',
-    title: 'Italian',
+    title: 'Dainik Amader Shomoy',
     color: Colors.purple,
+    imagetext: 'assets/images/amadershomoy.jpeg',
+    webLink: 'https://www.dainikamadershomoy.com/',
   ),
   Category(
     id: 'c2',
-    title: 'Quick & Easy',
-    color: Colors.red,
+    title: 'Bangladesh Pratidin',
+    color: Colors.purple,
+    imagetext: 'assets/images/bangladeshprotidin.jpeg',
+    webLink: 'https://www.bd-pratidin.com/',
   ),
   Category(
     id: 'c3',
-    title: 'Hamburgers',
-    color: Colors.orange,
+    title: 'Bangla Tribune',
+    color: Colors.purple,
+    imagetext: 'assets/images/banglatribute.jpeg',
+    webLink: 'https://www.banglatribune.com/',
   ),
   Category(
     id: 'c4',
-    title: 'German',
-    color: Colors.amber,
+    title: 'The Daily Ittefaq',
+    color: Colors.purple,
+    imagetext: 'assets/images/ettefaq.jpeg',
+    webLink: 'https://www.ittefaq.com.bd/',
   ),
   Category(
     id: 'c5',
-    title: 'Light & Lovely',
-    color: Colors.blue,
+    title: 'Daily Inqilab',
+    color: Colors.purple,
+    imagetext: 'assets/images/incelab.jpeg',
+    webLink: 'https://www.dailyinqilab.com/',
   ),
   Category(
     id: 'c6',
-    title: 'Exotic',
-    color: Colors.green,
+    title: 'Jago News24',
+    color: Colors.purple,
+    imagetext: 'assets/images/jagonews.jpeg',
+    webLink: 'https://www.jagonews24.com/',
   ),
   Category(
     id: 'c7',
-    title: 'Breakfast',
-    color: Colors.lightBlue,
+    title: 'Jugantor',
+    color: Colors.purple,
+    imagetext: 'assets/images/jugantor.jpeg',
+    webLink: 'https://www.jugantor.com/',
   ),
   Category(
     id: 'c8',
-    title: 'Asian',
-    color: Colors.lightGreen,
+    title: 'Kalerkantho',
+    color: Colors.purple,
+    imagetext: 'assets/images/kalerkontho.jpeg',
+    webLink: 'https://www.kalerkantho.com/',
   ),
   Category(
     id: 'c9',
-    title: 'French',
-    color: Colors.pink,
+    title: 'News 71 Online',
+    color: Colors.purple,
+    imagetext: 'assets/images/news71.jpeg',
+    webLink: 'https://news71online.com/',
   ),
   Category(
     id: 'c10',
-    title: 'Summer',
-    color: Colors.teal,
+    title: 'Nayadiganta',
+    color: Colors.purple,
+    imagetext: 'assets/images/noyadigonto.jpeg',
+    webLink: 'https://www.dailynayadiganta.com/',
+  ),
+  Category(
+    id: 'c11',
+    title: 'Prothomalo',
+    color: Colors.purple,
+    imagetext: 'assets/images/prothomalo.jpeg',
+    webLink: 'https://www.prothomalo.com/',
+  ),
+  Category(
+    id: 'c12',
+    title: 'Samakal',
+    color: Colors.purple,
+    imagetext: 'assets/images/shomokal.jpeg',
+    webLink: 'https://samakal.com/',
+  ),
+  Category(
+    id: 'c13',
+    title: 'The Daily Star',
+    color: Colors.purple,
+    imagetext: 'assets/images/thedailystar.jpeg',
+    webLink: 'https://www.thedailystar.net/',
   ),
 ];
 
@@ -67,7 +108,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
     duration: 20,
     ingredients: [
       '4 Tomatoes',
@@ -100,7 +141,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -129,7 +170,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+        'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
     duration: 45,
     ingredients: [
       '300g Cattle Hack',
@@ -160,7 +201,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Challenging,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
+        'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
     duration: 60,
     ingredients: [
       '8 Veal Cutlets',
@@ -197,7 +238,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+        'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
     duration: 15,
     ingredients: [
       'Arugula',
@@ -232,7 +273,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
+        'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
     duration: 240,
     ingredients: [
       '4 Sheets of Gelatine',
@@ -267,7 +308,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
+        'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
     duration: 20,
     ingredients: [
       '1 1/2 Cups all-purpose Flour',
@@ -298,7 +339,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Challenging,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
+        'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
     duration: 35,
     ingredients: [
       '4 Chicken Breasts',
@@ -331,7 +372,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
     duration: 45,
     ingredients: [
       '1 Teaspoon melted Butter',
@@ -382,7 +423,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
     duration: 30,
     ingredients: [
       'White and Green Asparagus',

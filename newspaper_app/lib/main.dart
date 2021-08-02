@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:newspaper_app/web_view.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 import '/categories_screen.dart';
 import '/category_item.dart';
 import '/category_meals_screens.dart';
@@ -11,15 +13,17 @@ void main() {
 
 }
 
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
 
     return MaterialApp(
       title: 'DeliMeals',
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.blueGrey,
         accentColor: Colors.amber,
         canvasColor: Color.fromRGBO(255, 254, 229, 1),
         fontFamily: 'Raleway',
@@ -42,8 +46,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (ctx) => CategoriesScreen(),
         CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
-        MealDetailsScreen.routeName: (ctx) => MealDetailsScreen(),
-        FilterScreen.routeName: (ctx) => FilterScreen(),
+        WebViewExample.routeName: (ctx) => WebViewExample(),
+
 
       },
       onGenerateRoute: (settings){
